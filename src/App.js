@@ -3,6 +3,7 @@ import './App.css';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Barra from './components/Barra';
+import Tablero from './components/Tablero';
 
 
 class App extends Component {
@@ -10,6 +11,9 @@ class App extends Component {
     return (
         <div className="App">
             <Barra />
+            <div className="container">
+              <Tablero />
+            </div>
         </div>
     );
   }

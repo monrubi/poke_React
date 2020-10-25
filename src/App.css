@@ -1,3 +1,7 @@
+.App{
+    padding-top: 4 ren;
+    min-height: 100vh;
+}
 .navbar{
     background-color: #de0d0d !important;
 }
