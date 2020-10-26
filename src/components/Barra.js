@@ -8,7 +8,7 @@ export default class Barra extends Component {
                 <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
                     <div className="container">
                         <div className="row justify-content-start">
-                            <img className="" alt="pokedex" src={logo}/>
+                            <img className="logoNav" alt="pokedex" src={logo}/>
                         </div>
                     </div>
 

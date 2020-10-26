@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Link} from 'react-router-dom';
 
 
 export default class Resultado extends Component {
@@ -23,17 +23,19 @@ export default class Resultado extends Component {
         return (
             <div className="col-md-3 col-sm-6 nb-5">
                 <div className="card container">
-                    <div className="row">
-                        <a href="/" className="col-sm-3 font-weight-bold">
-                            {this.state.pokeIdx}
-                        </a>
-                        <a href="/" className="col-sm-4">
+                    <div className="row align-items-center">
+                        <a href="/" className="col-sm-6">
                             <img alt="avatar" src={this.state.pokeImg}/>
                         </a>
+                        <div className="col ">
+                            <a href="/" className="row font-weight-bold">
+                                {this.state.pokeIdx}
+                            </a>
+                            <a href="/" className="row text-right text-capitalize font-weight-normal">
+                                {this.state.name}
+                            </a>
+                        </div>
 
-                        <a href="/" className="col-sm text-right text-capitalize font-weight-normal">
-                            {this.state.name}
-                        </a>
                     </div>
                
                 </div>
