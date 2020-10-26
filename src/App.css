@@ -12,3 +12,11 @@
 .tablero{
     margin-top: 80px;
 }
+
+.pokeAvatar{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+
+}

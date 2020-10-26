@@ -25,16 +25,16 @@ export default class Resultado extends Component {
                 <Link to={"pokemon/"+this.state.pokeIdx}>
                     <div className="card container">
                         <div className="row align-items-center">
-                            <a href="/" className="col-sm-6">
+                            <div className="col-sm-6">
                                 <img alt="avatar" src={this.state.pokeImg}/>
-                            </a>
+                            </div>
                             <div className="col ">
-                                <a href="/" className="row font-weight-bold">
+                                <div className="row font-weight-bold">
                                     {this.state.pokeIdx}
-                                </a>
-                                <a href="/" className="row text-right text-capitalize font-weight-normal">
+                                </div>
+                                <div className="row text-right text-capitalize font-weight-normal">
                                     {this.state.name}
-                                </a>
+                                </div>
                             </div>
 
                         </div>
